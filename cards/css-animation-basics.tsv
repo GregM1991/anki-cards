@@ -1,0 +1,5 @@
+In CSS/DOM animation work, why should decorative particles often use `position: absolute`?	So they’re removed from normal layout flow and don’t affect the size or position of surrounding elements.
+In a particle effect, how can you quickly place particles in varied locations within a container?	Assign randomized positional values, such as `top` and `left` percentages, to each particle.
+Why can an element animated from `opacity: 1` to `opacity: 0` appear visible again after the animation ends?	Because keyframe styles apply only while the animation is running unless a fill mode or base style preserves the final state.
+In CSS animations, what does `animation-fill-mode: forwards` do?	It keeps the element in the final keyframe state after the animation finishes.
+When building a complex animation effect, why is it useful to start with a minimal version first?	It reduces complexity, makes debugging easier, and lets you validate one part of the effect before layering on more behavior.
