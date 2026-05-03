@@ -1,4 +1,4 @@
-# pi-animation-anki-cards
+# anki-cards
 
 High-value Anki cards for CSS animation and related frontend motion concepts.
 
@@ -6,7 +6,7 @@ High-value Anki cards for CSS animation and related frontend motion concepts.
 
 Current deck content lives in:
 
-- `cards/css-animation-basics.tsv`
+- `animation/css-animation-basics.tsv`
 
 Format:
 
