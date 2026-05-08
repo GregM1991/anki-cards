@@ -1,0 +1,8 @@
+In software architecture, what makes a Module “deep”?	A deep Module provides a lot of useful behavior behind a small Interface that callers do not need to understand in detail.
+When evaluating a possible refactor, what does the deletion test ask?	If the Module were deleted, would its complexity disappear or reappear across multiple callers?
+What does architectural locality mean?	Related behavior, bugs, and change knowledge are concentrated in one Module instead of spread across callers.
+What does architectural leverage mean?	Callers get more capability from less Interface knowledge because one Implementation pays off across many call sites and tests.
+What does “the Interface is the test surface” mean?	Tests should verify behavior through the same Interface callers use, rather than reaching into scattered Implementation details.
+What question helps detect when a caller is helping implement a Module instead of using it?	Is the caller making implementation decisions such as mapping types, checking invariants, validating paths, or special-casing variants?
+Why does a deeper Module not eliminate complexity?	It moves real complexity behind the right Interface so callers do not all have to participate in it.
+How are architectural seams and Module seams related?	Architectural seams separate large layers like routes and workflows, while Module seams apply the same idea at a smaller scale inside those layers.
